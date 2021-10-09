@@ -50,7 +50,7 @@ It was noted that 56% of the Vine paid and 57% of the non-paid reivews had a rat
 - Customer demographic, voting and rating patterns
 - Product details 
 - Time line 
-- Type of compensation  
+- Compensation type and value  
 
 #### Resources
 - Amazon Reviews US Musical Instruments: https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Musical_Instruments_v1_00.tsv.gz
