@@ -27,7 +27,7 @@ The findings were as follows:
 - The total number of 5-star reviews that were non-paid was 8,212, which represents 56% of the total reviews listed in the first bullet point.
 - The total number of 5-star reviews that were paid was 34, which represents 0.23% of the total reviews listed in the first bullet point.
 - The total number of all reviews that were non-paid was 14,477, which represents 99.6% of the total reviews listed in the first bullet point.
-- The total number of all reviews that were paid was 60, which represents 0.41% of the total reviews listed in the first bullet point. 
+- The total number of all reviews that were paid was 60, which represents 0.4% of the total reviews listed in the first bullet point. 
 
 
 ## Appendix
