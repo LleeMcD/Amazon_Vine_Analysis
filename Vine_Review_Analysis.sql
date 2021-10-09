@@ -28,10 +28,6 @@ CREATE TABLE vine_table (
   verified_purchase TEXT
 );
 
--- Vine table created from AWS and pgAdmin
-SELECT *
-FROM vine_table
-
 -- Challenge deliverable 2 step 1 total vote >= 20
 SELECT * 
 INTO vine_table2
