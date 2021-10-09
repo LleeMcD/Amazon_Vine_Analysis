@@ -45,7 +45,7 @@ The findings are listed below.
   - 56% of the Vine Paid Reviews(C.)
 
 ## Conclusions
-It was noted that 56% of the Vine paid and 57% of the non-paid reivews had a rating of 5-stars, which at a glance would indicate that there wasn't a bias present. However, there were only 60 paid reviews overall, with 34 of these being rated at 5-Stars. Additional ananlysis is recommended with a larger data set to include:
+It was noted that 56% of the Vine paid and 57% of the non-paid reivews had a rating of 5-stars, which at a glance would indicate that there wasn't a positivity bias present. However, there were only 60 paid reviews overall, with 34 of these being rated at 5-Stars. Additional ananlysis is recommended with a larger data set to include:
 - Verified purchase information
 - Customer demographic, voting and rating patterns
 - Product details 
