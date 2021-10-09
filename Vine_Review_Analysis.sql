@@ -1,7 +1,37 @@
+CREATE TABLE review_id_table (
+  review_id TEXT PRIMARY KEY NOT NULL,
+  customer_id INTEGER,
+  product_id TEXT,
+  product_parent INTEGER,
+  review_date DATE -- this should be in the formate yyyy-mm-dd
+);
+
+-- This table will contain only unique values
+CREATE TABLE products_table (
+  product_id TEXT PRIMARY KEY NOT NULL UNIQUE,
+  product_title TEXT
+);
+
+-- Customer table for first data set
+CREATE TABLE customers_table (
+  customer_id INT PRIMARY KEY NOT NULL UNIQUE,
+  customer_count INT
+);
+
+-- vine table
+CREATE TABLE vine_table (
+  review_id TEXT PRIMARY KEY,
+  star_rating INTEGER,
+  helpful_votes INTEGER,
+  total_votes INTEGER,
+  vine TEXT,
+  verified_purchase TEXT
+);
+
 -- Vine table created from AWS and pgAdmin
 SELECT *
 FROM vine_table
-LIMIT 5
+
 -- Challenge deliverable 2 step 1 total vote >= 20
 SELECT * 
 INTO vine_table2
@@ -22,13 +52,18 @@ INTO vine_table4
 FROM vine_table3
 WHERE vine = 'Y';
 
+SELECT *
+FROM vine_table4
+WHERE star_rating = 5;
+
 -- Challenge deliverable 2 step 4 Vine program paid, vine = 'N' where 
 -- total vote >= 20 and helpful_votes / total_votes >= 50%
 SELECT *
 INTO vine_table5
 FROM vine_table3
 WHERE vine = 'N';
-
+	
+	
 -- Challenge deliverable 2 step 5 
 -- Create table of total number of reviews (null values removed).
 SELECT DISTINCT COUNT (review_id) AS "Total Reviews",
