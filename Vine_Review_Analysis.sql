@@ -39,7 +39,7 @@ WHERE total_votes >= 20;
 SELECT *
 INTO vine_table3
 FROM vine_table2
-WHERE CAST(helpful_votes AS FLOAT)/CAST(total_votes AS FLOAT) >=0.5
+WHERE CAST(helpful_votes AS FLOAT)/CAST(total_votes AS FLOAT) >=0.5;
 
 -- Challenge deliverable 2 step 3 Vine program paid, vine = 'Y' where 
 -- total vote >= 20 and helpful_votes / total_votes >= 50%
