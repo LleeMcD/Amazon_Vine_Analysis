@@ -74,7 +74,7 @@ It was noted that 56% of the Vine paid and 57% of the non-paid reivews had a rat
 ###### a. vine_table2
 ![vine_table2](https://github.com/LleeMcD/Amazon_Vine_Analysis/blob/main/Resources/vine_table2.png)
 ###### b. vine_table3
-![vine_table3]()
+![vine_table3](https://github.com/LleeMcD/Amazon_Vine_Analysis/blob/main/Resources/vine_table3.png)
 ###### c. vine_table4
 ![vine_table4](https://github.com/LleeMcD/Amazon_Vine_Analysis/blob/main/Resources/vine_table4.png)
 ###### d. vine_table5
